@@ -153,7 +153,8 @@ header {
         visibility: visible;
     }
     .social-media-mobile img {
-        padding: 5px 10px;
+        padding-right: 10px;
+        padding-top: 5px;
         margin-top: 20px;
     }
 }
@@ -193,10 +194,6 @@ header {
     display: flex;
 }
 
-textarea {
-    padding: 10px 10px;
-}
-
 @media only screen and (max-width: 800px) {
     .main-logo {
         position: relative;
@@ -204,7 +201,7 @@ textarea {
     }
     .logo {
         position: absolute;
-        left: 170px;
+        left: 120px;
         top: 40px;
     }
 }
@@ -266,10 +263,14 @@ textarea {
         height: 200px;
         width: 100%;
         overflow: hidden;
+        align-items: center;
+    }
+    .banners {
+        margin-right: 50px;
     }
     .banner-title {
         position: absolute;
-        margin-left: 100px;
+        margin-left: 25px;
         margin-top: 45px;
     }
 }
@@ -283,17 +284,27 @@ textarea {
 
 =======================================*/
 
+figcaption,
+#showButton {
+    font-weight: bold;
+}
+
+.artworks,
+#character-designs {
+    width: fit-content;
+}
+
+video,
+figcaption {
+    display: inline-block;
+}
+
 .art {
     margin-top: 200px;
 }
 
 .artworks {
-    width: fit-content;
     padding: 0 280px;
-}
-
-#character-designs {
-    width: fit-content;
 }
 
 .thumbnail {
@@ -311,15 +322,12 @@ span.lb-caption {
 }
 
 video {
-    display: inline-block;
     border: 1px solid white;
     margin: 10px;
     box-shadow: 5px 10px 5px black;
 }
 
 figcaption {
-    font-weight: bold;
-    display: inline-block;
     margin: 0;
     padding: 0 100px;
     opacity: 80%;
@@ -330,7 +338,6 @@ figcaption {
 }
 
 #showButton {
-    font-weight: bold;
     font-size: 16px;
     display: block;
     background: #606060;
@@ -349,14 +356,17 @@ figcaption {
 @media only screen and (max-width: 800px) {
     .artworks {
         position: relative;
-        right: 250px;
-        width: 100%;
+        right: 270px;
+    }
+    video,
+    .thumbnail {
+        width: 150%;
     }
     #showButton {
-        margin-left: 170px;
+        margin-left: 120px;
     }
     figcaption {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -405,20 +415,19 @@ li {
     margin-top: 170px;
 }
 
-hr {
-    visibility: hidden;
-}
-
 @media only screen and (max-width: 800px) {
-    h1 {
+    h1,
+    p {
         position: relative;
+    }
+    h1 {
+        left: 5px;
         padding-bottom: 10px;
         font-size: 60px;
     }
     p {
-        position: relative;
-        right: 140px;
-        width: 400px;
+        right: 100px;
+        width: 300px;
     }
     .profile {
         visibility: hidden;
@@ -427,16 +436,7 @@ hr {
         text-align: center;
     }
     .summary {
-        margin-left: 150px;
-    }
-    hr {
-        visibility: visible;
-        margin-top: 20px;
-    }
-    .footer {
-        position: absolute;
-        right: 40px;
-        padding-bottom: 150px;
+        margin-left: 100px;
     }
 }
 
@@ -468,6 +468,10 @@ hr {
 input {
     padding: 10px;
     margin: 5px;
+}
+
+textarea {
+    padding: 10px 10px;
 }
 
 input,
@@ -539,9 +543,25 @@ textarea {
     form {
         position: relative;
         width: 100%;
-        right: 150px;
+        right: 140px;
         top: 80px;
         margin-bottom: 100px;
+    }
+    .first-name,
+    #firstname,
+    .last-name,
+    #lastname {
+        width: 160px;
+    }
+    h4 {
+        width: 65px;
+    }
+    #email,
+    .email-address {
+        width: 95%;
+    }
+    textarea {
+        width: 91.5%;
     }
     .inquiry {
         margin: 0 auto;
@@ -601,12 +621,11 @@ textarea {
         display: none;
     }
     .inquiry-comment {
-        position: relative;
-        right: 50px;
-        font-size: 35px;
+        margin-right: 50px;
+        font-size: 25px;
     }
     .inquiry-subcommit {
-        margin-left: 200px;
+        margin-left: 140px;
     }
     .bird {
         position: absolute;
@@ -633,6 +652,12 @@ textarea {
 
 =======================================*/
 
+.footer {
+    position: relative;
+    right: 0px;
+    padding-bottom: 0px;
+}
+
 #footer {
     text-align: center;
     margin-bottom: 40px;
@@ -655,6 +680,3 @@ textarea {
     justify-content: space-around;
     align-items: center;
 }
-
-
-/* */
