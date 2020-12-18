@@ -26,7 +26,6 @@
     <link rel="icon" type="image/png" href="image/favicon.png" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link href="css/hamburger.css" type="text/css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
 </head>
@@ -43,7 +42,7 @@
         <nav class="navbar" id="mobileNav">
             <div class="dropdown">
                 <button class="dropbtn" onclick="myFunction()">
-                    <img src="image/drop.png" />
+                    <img src="image/drop.png" alt="Dropdown"  title="Dropdown" />
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content" id="myDropdown">
@@ -69,9 +68,9 @@
             </div>
         </nav>
 
-        <section class="social-media">
+        <div class="social-media">
 
-            <a href="https://www.facebook.com/dreamer.tiffanyliu/" target="_blank"><img class="facebook" src="image/facebook.png" alt="Facebook" title="Facebook" width="30px" /></a>
+            <a href="https://www.facebook.com/dreamer.tiffanyliu/" target="_blank"><img class="facebook" src="image/facebook.png" alt="Facebook" title="Facebook" width="30" /></a>
 
             <a href="https://twitter.com/LiuDreamer" target="_blank"><img class="twitter" src="image/twitter.png" alt="Twitter" title="Twitter" width="30" /></a>
 
@@ -80,31 +79,49 @@
 
 
             <a href="https://www.fiverr.com/animate_dreamer?up_rollout=true" target="_blank"><img class="fiverr" src="image/fiverr.png" alt="Fiverr" title="Fiverr" width="30" /></a>
-        </section>
+        </div>
 
     </header>
 
     <main class="inquiry-container">
 
-        <img class="bird" src="https://www.animatedimages.org/data/media/235/animated-email-image-0316.gif" alt="Mailing Bird" title="Mailing Bird" width="100px" /></a>
-        <img class="bird-flip" src="image/bird.gif" alt="Mailing Bird" title="Mailing Bird" width="100px" />
+        <img class="bird" src="https://www.animatedimages.org/data/media/235/animated-email-image-0316.gif" alt="Mailing Bird" title="Mailing Bird" width="100" />
+        <img class="bird-flip" src="image/bird.gif" alt="Mailing Bird" title="Mailing Bird" width="100" />
         <div class="inquiry">
             <h1 class="inquiry-comment">Thank you for your inquiry</h1>
             <p class="inquiry-subcommit">Thanks for your interest. I have received your message, and I will be in touch shortly.</p>
+            <details>
+                <summary>*I hope you enjoyed visiting this website. I worked really hard to make it!</summary>
+            </details>
         </div>
 
-        <footer id="footer">
-            <footer>
-                <section>
-                    <div class="email">
-                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=animatedreamer@gmail.com&tf=1" target="_blank"><img src="image/footer-email.png" alt="Email icon" title="Email icon" /></a>
-                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=animatedreamer@gmail.com&tf=1" target="_blank">Animatedreamer@gmail.com</a>
-                    </div>
-                    <p class="footer">©2020 Animate Dreamer</p>
-                </section>
-            </footer>
-        </footer>
     </main>
+
+    <footer id="footer">
+
+        <div class="social-media-mobile">
+
+            <a href="https://www.facebook.com/dreamer.tiffanyliu/" target="_blank"><img class="facebook" src="image/facebook.png" alt="Facebook" width="50" title="Facebook" /></a>
+
+            <a href="https://twitter.com/LiuDreamer" target="_blank"><img class="twitter" src="image/twitter.png" alt="Twitter" title="Twitter" width="50" /></a>
+
+
+            <a href="https://www.linkedin.com/in/tiffany-liu-54798492/" target="_blank"><img class="linkedin" src="image/linkedin.png" alt="Linkedin" title="Linkedin" width="50" /></a>
+
+
+            <a href="https://www.fiverr.com/animate_dreamer?up_rollout=true" target="_blank"><img class="fiverr" src="image/fiverr.png" alt="Fiverr" title="Fiverr" width="50" /></a>
+
+        </div>
+
+        <div>
+            <div class="email">
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=animatedreamer@gmail.com&tf=1" target="_blank"><img src="image/footer-email.png" alt="Email icon" title="Email icon" /></a>
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=animatedreamer@gmail.com&tf=1" target="_blank">Animatedreamer@gmail.com</a>
+            </div>
+            <p class="footer">©2020 Animate Dreamer</p>
+        </div>
+
+    </footer>
 
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
