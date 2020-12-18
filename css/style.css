@@ -549,17 +549,19 @@ textarea {
     #firstname,
     .last-name,
     #lastname {
-        width: 160px;
+        width: 130px;
+        margin: 0 30px;
+        margin-left: 2px;
     }
     h4 {
         width: 65px;
     }
     #email,
     .email-address {
-        width: 95%;
+        width: 91.5%;
     }
     textarea {
-        width: 91.5%;
+        width: 85%;
     }
     .inquiry {
         margin: 0 auto;
