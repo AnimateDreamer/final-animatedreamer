@@ -127,21 +127,21 @@ header {
 }
 
 .profile {
-    height: 350px;
-    margin-top: 180px;
     margin-right: 450px;
     border-radius: 10px;
     float: right;
+    clear: left;
 }
 
 @media only screen and (max-width: 800px) {
+    .profile,
+    .divider {
+        display: none;
+    }
     .shortcut {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .divider {
-        display: none;
     }
     .shortcut>* {
         padding-top: 10px;
@@ -284,7 +284,6 @@ header {
 
 =======================================*/
 
-figcaption,
 #showButton {
     font-weight: bold;
 }
@@ -294,8 +293,7 @@ figcaption,
     width: fit-content;
 }
 
-video,
-figcaption {
+video {
     display: inline-block;
 }
 
@@ -578,6 +576,10 @@ textarea {
 
 =======================================*/
 
+details {
+    margin-top: 50px;
+}
+
 .bird,
 .bird-flip {
     position: relative;
@@ -617,6 +619,10 @@ textarea {
 }
 
 @media only screen and (max-width: 800px) {
+    details {
+        margin-left: 85px;
+        width: 200px;
+    }
     .bird-flip {
         display: none;
     }
