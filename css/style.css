@@ -130,7 +130,6 @@ header {
     margin-right: 450px;
     border-radius: 10px;
     float: right;
-    clear: left;
 }
 
 @media only screen and (max-width: 800px) {
@@ -325,10 +324,9 @@ video {
     box-shadow: 5px 10px 5px black;
 }
 
-figcaption {
-    margin: 0;
-    padding: 0 100px;
-    opacity: 80%;
+figure {
+    float: left;
+    text-align: center;
 }
 
 .coffee-descript {
@@ -351,6 +349,13 @@ figcaption {
     text-decoration: underline;
 }
 
+.meat {
+    padding-right: 20px;
+    padding-top: 50px;
+    margin-left: 50px;
+    clear: right;
+}
+
 @media only screen and (max-width: 800px) {
     .artworks {
         position: relative;
@@ -360,10 +365,15 @@ figcaption {
     .thumbnail {
         width: 150%;
     }
+    figcaption {
+        position: relative;
+        width: 100%;
+        left: 50px;
+    }
     #showButton {
         margin-left: 120px;
     }
-    figcaption {
+    .meat {
         display: none;
     }
 }
@@ -413,6 +423,18 @@ li {
     margin-top: 170px;
 }
 
+.extra-title {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.top-section,
+.middle-section,
+.bottom-section {
+    margin-left: 80px;
+    width: 90%;
+}
+
 @media only screen and (max-width: 800px) {
     h1,
     p {
@@ -427,14 +449,21 @@ li {
         right: 100px;
         width: 300px;
     }
-    .profile {
-        visibility: hidden;
-    }
     #aboutSplit {
         text-align: center;
     }
     .summary {
         margin-left: 100px;
+    }
+    .extra-title {
+        padding: 0px;
+        margin-top: 150px;
+    }
+    .top-section,
+    .middle-section,
+    .bottom-section {
+        position: relative;
+        left: 20px;
     }
 }
 

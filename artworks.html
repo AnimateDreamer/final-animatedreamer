@@ -29,9 +29,6 @@
     <!--Light Box-->
     <link href="lightbox/src/css/lightbox.css" type="text/css" rel="stylesheet" />
 
-    <!--Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 </head>
 
 <body>
@@ -42,6 +39,7 @@
             <a href="about.html">About</a>
             <a href="artworks.html">Artworks</a>
             <a href="contact.html">Contact</a>
+            <a href="extra.html">Extra</a>
         </nav>
         <nav class="navbar" id="mobileNav">
             <div class="dropdown">
@@ -61,6 +59,10 @@
 
                         <li class="link_classes">
                             <a href="contact.html" class="navText">Contact</a>
+                        </li>
+
+                        <li class="link_classes">
+                            <a href="extra.html" class="navText">Extra</a>
                         </li>
 
                     </ul>
@@ -99,9 +101,19 @@
         <div class="artworks">
             <section id="animations">
                 <h2 class="artwork-names">Animations</h2>
-                <video src="video/discord.mp4" poster="image/animation/girl-thumb.jpg" width="400" controls></video>
-                <video src="video/skeleton.mp4" poster="image/animation/skeleton-thumb.jpg" width="400" controls></video>
-                <video src=" video/coffee.mp4 " poster="image/animation/coffee-thumb.jpg " width="400" controls></video>
+                <figure>
+                    <video src="video/discord.mp4" poster="image/animation/girl-thumb.jpg" width="400" controls></video>
+                    <figcaption>Horrible Discord Experience</figcaption>
+                </figure>
+                <figure>
+                    <video src="video/skeleton.mp4" poster="image/animation/skeleton-thumb.jpg" width="400" controls></video>
+                    <figcaption>Skeleton Gamer</figcaption>
+                </figure>
+                <figure>
+                    <video src=" video/coffee.mp4 " poster="image/animation/coffee-thumb.jpg " width="400" controls></video>
+                    <figcaption>Coffee Showdown</figcaption>
+                </figure>
+
             </section>
 
             <section id="character-designs">
@@ -127,7 +139,7 @@
                 <a href="image/character-design/mom/mom-expressions.jpg" data-lightbox="mom" data-title="Mom Expressions "></a>
 
                 <a href="image/character-design/rex/rex-turnaround-pose1.jpg" data-lightbox="rex" data-title="Rex Turnaround"><img class="thumbnail" src="image/character-design/rex/rex-thumb.jpg" alt="Rex" title="Rex" /></a>
-                <a href="image/character-design/rex/rex-turnaround-pose2.jpg" data-lightbox="rex" data-title="Rex Turnaround2"></a>
+                <a href="image/character-design/rex/rex-turnaround-pose2.jpg" data-lightbox="rex" data-title="Rex Turnaround 2"></a>
                 <a href="image/character-design/rex/rex-expressions.jpg" data-lightbox="rex" data-title="Rex Expressions"></a>
 
                 <a href="image/character-design/dabi/dabi-turnaround.jpg" data-lightbox="dabi" data-title="Dabi Turnaround"><img class="thumbnail" src="image/character-design/dabi/dabi-thumb.jpg" alt="Dabi" title="Dabi" /></a>
@@ -212,6 +224,7 @@
     </footer>
 
     <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="lightbox/src/js/lightbox.js "></script>
     <script>
@@ -220,6 +233,7 @@
             'maxHeight': 800
         })
     </script>
+
     <script src="scripts/scripts.js"></script>
 
 
