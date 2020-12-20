@@ -349,13 +349,6 @@ figure {
     text-decoration: underline;
 }
 
-.meat {
-    padding-right: 20px;
-    padding-top: 50px;
-    margin-left: 50px;
-    clear: right;
-}
-
 @media only screen and (max-width: 800px) {
     .artworks {
         position: relative;
@@ -372,9 +365,6 @@ figure {
     }
     #showButton {
         margin-left: 120px;
-    }
-    .meat {
-        display: none;
     }
 }
 
@@ -423,18 +413,6 @@ li {
     margin-top: 170px;
 }
 
-.extra-title {
-    text-align: center;
-    padding-top: 200px;
-}
-
-.top-section,
-.middle-section,
-.bottom-section {
-    margin-left: 80px;
-    width: 90%;
-}
-
 @media only screen and (max-width: 800px) {
     h1,
     p {
@@ -454,16 +432,6 @@ li {
     }
     .summary {
         margin-left: 100px;
-    }
-    .extra-title {
-        padding: 0px;
-        margin-top: 150px;
-    }
-    .top-section,
-    .middle-section,
-    .bottom-section {
-        position: relative;
-        left: 20px;
     }
 }
 
