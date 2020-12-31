@@ -267,11 +267,11 @@ header {
         align-items: center;
     }
     .banner-title {
+        position: absolute;
         text-align: center;
         width: 70%;
-        font-size: 40px;
-        margin-top: 15%;
-        margin-left: 33%;
+        overflow: hidden;
+        font-size: 30px;
     }
 }
 
