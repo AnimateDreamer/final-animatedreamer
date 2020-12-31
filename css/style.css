@@ -262,16 +262,13 @@ header {
 @media only screen and (max-width: 800px) {
     .banners>a {
         height: 200px;
-        width: 100%;
+        width: 80%;
         overflow: hidden;
         align-items: center;
     }
     .banner-title {
-        position: absolute;
-        text-align: center;
         width: 70%;
-        overflow: hidden;
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
