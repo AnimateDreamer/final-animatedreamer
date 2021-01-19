@@ -21,264 +21,35 @@
     <title>Artworks</title>
 
     <!--CSS-->
-    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <!-- <link rel="icon" type="image/png" href="image/favicon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="image/favicon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="image/favicon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="image/favicon-114x114.png">
     <link rel="apple-touch-icon" sizes="144x144" href="image/favicon-144x144.png">
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link href="css/hamburger.css" type="text/css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> -->
 
-    <!--Light Box-->
-    <link href="lightbox/src/css/lightbox.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="scripts/dist/css/lightgallery.min.css">
+
+    <script src="scripts/dist/js/lightgallery.min.js"></script>
 
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img class="logo" src="image/logo-small.png" alt="Home" title="Home" /></a>
-        <nav id="desktopNav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="artworks.html">Artworks</a>
-            <a href="contact.html">Contact</a>
-
-        </nav>
-        <nav class="navbar" id="mobileNav">
-            <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">
-                    <img src="image/drop.png" alt="Dropdown"  title="Dropdown" />
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content" id="myDropdown">
-                    <ul>
-                        <li class="link_classes">
-                            <a href="index.html" class="navText">Home</a>
-                        </li>
-
-                        <li class="link_classes">
-                            <a href="about.html" class="navText">About</a>
-                        </li>
-
-                        <li class="link_classes">
-                            <a href="contact.html" class="navText">Contact</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/tiffany-liu-54798492/" target="_blank"><img class="linkedin" src="image/linkedin.png" alt="Linkedin" title="Linkedin" width="30" /></a>
-
-            <a href="https://tiffanyliu11.artstation.com/" target="_blank"><img class="artstation" src="image/artstation.png" alt="Artstation" title="Artstation" width="30" /></a>
-
-            <a href="https://www.fiverr.com/animate_dreamer?up_rollout=true" target="_blank"><img class="fiverr" src="image/fiverr.png" alt="Fiverr" title="Fiverr" width="30" /></a>
-
-            <a href="https://www.youtube.com/channel/UCfQ_kXtpGhRUOeGMSAev6MQ" target="_blank"><img class="youtube" src="image/youtube.png" alt="Youtube" title="Youtube" width="30" /></a>
+    <section id="character-designs">
+        <div id="lightgallery">
+            <a href="image/character-design/seth.jpg">
+                <img src="image/character-design/seth.jpg">
+            </a>
+            <a href="image/character-design/seth.jpg">
+                <img src="image/character-design/seth.jpg">
+            </a>
         </div>
-
-    </header>
-
-    <main class="art">
-        <div class="container" id="home">
-
-            <div class="shortcut">
-                <a href="artworks.html#animations">Animations</a>
-                <div class="divider">|</div>
-                <a href="artworks.html#character-designs">Character Designs</a>
-                <div class="divider">|</div>
-                <a href="artworks.html#illustrations">Illustrations</a>
-            </div>
-
-        </div>
-
-        <div class="artworks">
-            <section id="animations">
-                <h2 class="artwork-names">Animations</h2>
-                <figure>
-                    <video src="video/discord.mp4" poster="image/animation/girl-thumb.jpg" width="400" controls></video>
-                    <figcaption>Horrible Discord Experience (2020)</figcaption>
-                </figure>
-
-                <figure>
-                    <video src="video/wizard.mp4" width="400" controls></video>
-                    <figcaption>Wizard Intro (2021)</figcaption>
-                </figure>
-
-                <figure>
-                    <video src="video/skeleton.mp4" poster="image/animation/skeleton-thumb.jpg" width="400" controls></video>
-                    <figcaption>Skeleton Gamer(2020)</figcaption>
-                </figure>
-
-                <figure>
-                    <video src="video/manic-monday-animatic.mp4" width="400" controls></video>
-                    <figcaption>Manic Monday Animatic (2017)</figcaption>
-                </figure>
-
-                <figure>
-                    <video src="video/seth.mp4" width="400" controls></video>
-                    <figcaption>The Ballad of Samuel Seth (2015)</figcaption>
-                </figure>
-
-                <figure>
-                    <video src=" video/coffee.mp4 " poster="image/animation/coffee-thumb.jpg " width="400" controls></video>
-                    <figcaption>Coffee Showdown(2014)</figcaption>
-                </figure>
-
-            </section>
-
-            <section id="character-designs">
-                <h2 class="artwork-names">Character Designs</h2>
-
-                <figure>
-                    <a href="image/character-design/man/man-turnaround.jpg" data-lightbox="man" data-title="Man Turnaround"><img class="thumbnail" src="image/character-design/man/man-thumb.jpg" alt="Man" title="Man" /></a>
-                    <a href="image/character-design/man/man-expressions.jpg" data-lightbox="man" data-title="Man Expressions"></a>
-                    <a href="image/character-design/man/man-mouth-poses.jpg" data-lightbox="man" data-title="Man Mouths"></a>
-                    <figcaption class="character-figcaption">Generic Male Character (2020)</figcaption>
-                </figure>
-
-                <figure>
-                    <a href="image/character-design/woman/woman-turnaround.jpg" data-lightbox="woman" data-title="Woman Turnaround"><img class="thumbnail" src="image/character-design/woman/woman-thumb.jpg" alt="Woman" title="Woman" /></a>
-                    <a href="image/character-design/woman/woman-expressions.jpg" data-lightbox="woman" data-title="Woman Expressions"></a>
-                    <a href="image/character-design/woman/woman-mouth-poses.jpg" data-lightbox="woman" data-title="Woman Mouths"></a>
-                    <figcaption class="character-figcaption">Generic Female Character (2020)</figcaption>
-                </figure>
-
-                <figure>
-                    <a href="image/character-design/jake/jake-turnaround.jpg" data-lightbox="jake" data-title="Jake Turnaround"><img class="thumbnail" src="image/character-design/jake/jake-thumb.jpg" alt="Jake" title="Jake" /></a>
-                    <a href="image/character-design/jake/jake-expressions.jpg" data-lightbox="jake" data-title="Jake Expressions"></a>
-                    <a href="image/character-design/jake/jake-mouth-poses.jpg" data-lightbox="jake" data-title="Jake Mouths"></a>
-                    <figcaption class="character-figcaption">Jake (2020)</figcaption>
-                </figure>
-
-                <figure>
-                    <a href="image/character-design/jade/jade-turnaround.jpg" data-lightbox="jade" data-title="Jade Turnaround"><img class="thumbnail" src="image/character-design/jade/jade-thumb.jpg" alt="Jade" title="Jade" /></a>
-                    <a href="image/character-design/jade/jade-expressions.jpg" data-lightbox="jade" data-title="Jade Expressions"></a>
-                    <a href="image/character-design/jade/jade-mouth-poses.jpg" data-lightbox="jade" data-title="Jade Mouths"></a>
-                    <figcaption class="character-figcaption">Jade (2020)</figcaption>
-                </figure>
-                <figure>
-                    <a href="image/character-design/kevin/kevin-turnaround.jpg" data-lightbox="kevin" data-title="Kevin Turnaround"><img class="thumbnail" src="image/character-design/kevin/kevin-thumb.jpg " alt="Kevin" title="Kevin" /></a>
-                    <a href="image/character-design/kevin/kevin-turnaround-no-sunglasses.jp" data-lightbox="kevin " data-title="Kevin Turnaround No Sunglasses"></a>
-                    <a href="image/character-design/kevin/kevin-expressions.jpg" data-lightbox="kevin" data-title="Kevin Expressions"></a>
-                    <a href="image/character-design/kevin/kevin-expressions-no-sunglasses.jpg" data-lightbox="kevin " data-title="Kevin Expressions No Sunglasses"></a>
-                    <figcaption class="character-figcaption">Kevin (2020)</figcaption>
-                </figure>
-                <figure>
-                    <a href="image/character-design/mom/mom-turnaround-coat.jpg" data-lightbox="mom" data-title="Mom Turnaround Coat"><img class="thumbnail" src="image/character-design/mom/mom-thumb.jpg" alt="Mom" title="Mom" /></a>
-                    <a href="image/character-design/mom/mom-turnaround-sweater.jpg" data-lightbox="mom" data-title="Mom Turnaround Sweater "></a>
-                    <a href="image/character-design/mom/mom-expressions.jpg" data-lightbox="mom" data-title="Mom Expressions "></a>
-                    <figcaption class="character-figcaption">Woman in Christmas clothing (2020)</figcaption>
-                </figure>
-                <figure>
-                    <a href="image/character-design/rex/rex-turnaround-pose1.jpg" data-lightbox="rex" data-title="Rex Turnaround"><img class="thumbnail" src="image/character-design/rex/rex-thumb.jpg" alt="Rex" title="Rex" /></a>
-                    <a href="image/character-design/rex/rex-turnaround-pose2.jpg" data-lightbox="rex" data-title="Rex Turnaround 2"></a>
-                    <a href="image/character-design/rex/rex-expressions.jpg" data-lightbox="rex" data-title="Rex Expressions"></a>
-                    <figcaption class="character-figcaption">Rex (2020)</figcaption>
-                </figure>
-                <figure>
-                    <a href="image/character-design/dabi/dabi-turnaround.jpg" data-lightbox="dabi" data-title="Dabi Turnaround"><img class="thumbnail" src="image/character-design/dabi/dabi-thumb.jpg" alt="Dabi" title="Dabi" /></a>
-                    <a href="image/character-design/dabi/dabi-expressions.jpg" data-lightbox="dabi" data-title="Dabi Expressions"></a>
-                    <figcaption class="character-figcaption">Dabi (2020)</figcaption>
-                </figure>
-
-                <figure>
-                    <a href="image/character-design/glinglo/glinglo-turnaround-pose1.jpg" data-lightbox="glinglo" data-title="Glinglo Turnaround"><img class="thumbnail" src="image/character-design/glinglo/glinglo-thumb.jpg" alt="Glinglo" title="Glinglo" /></a>
-                    <a href="image/character-design/glinglo/glinglo-turnaround-pose2.jpg" data-lightbox="glinglo" data-title="Glinglo Turnaround 2"></a>
-                    <a href="image/character-design/glinglo/glinglo-turnaround-pose3.jpg" data-lightbox="glinglo" data-title="Glinglo Turnaround 3"></a>
-                    <a href="image/character-design/glinglo/glinglo-expressions.jpg " data-lightbox="glinglo" data-title="Glinglo Expressions"></a>
-                    <figcaption class="character-figcaption">Glinglo (2020)</figcaption>
-                </figure>
-                <br><button id="showButton">Show More</button><br>
-
-                <div class="hidden">
-
-                    <figure>
-                        <a href="image/character-design/wolfgang/wolfgang-turnaround.jpg" data-lightbox="wolfgang" data-title="Wolfgang Tusk Turnaround"><img class="thumbnail" src="image/character-design/wolfgang/wolfgang-thumb.jpg" alt="Wolfgang Tusk" title="Wolfgang
-                        Tusk " /></a>
-                        <a href="image/character-design/wolfgang/wolfgang-t-pose.jpg" data-lightbox="wolfgang" data-title="Wolfgang Tusk T-Pose"></a>
-                        <figcaption class="character-figcaption">Wolfgang (2019)</figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="image/character-design/roxie/roxie-turnaround.jpg" data-lightbox="roxie" data-title="Roxie Fox Turnaround"><img class="thumbnail" src="image/character-design/roxie/roxie-thumb.jpg" alt="Roxie Fox" title="Roxie Fox" /></a>
-                        <a href="image/character-design/roxie/roxie-expressions.jpg" data-lightbox="roxie" data-title="Roxie Fox Expressions "></a>
-                        <a href="image/character-design/roxie/roxie-mouths.jpg" data-lightbox="roxie" data-title="Roxie Fox Mouths"></a>
-                        <a href="image/character-design/roxie/roxie-t-pose.jpg" data-lightbox="roxie" data-title="Roxie Fox T-Pose"></a>
-                        <a href="image/character-design/roxie/roxie-poses.jpg" data-lightbox="roxie" data-title="Roxie Fox Poses"></a>
-                        <figcaption class="character-figcaption">Roxie (2019)</figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href="image/character-design/monica/monica-poses.jpg" data-lightbox="monica" data-title="Monica Poses"><img class="thumbnail" src="image/character-design/monica/monica-thumb.jpg" alt="Monica Ruby" title="Monica Ruby" /></a>
-                        <a href="image/character-design/monica/monica-poses-line.jpg" data-lightbox="monica" data-title="Monica Poses Line"></a>
-                        <a href="image/character-design/monica/monica-poses-color.jpg" data-lightbox="monica" data-title="Monica Poses Color"></a>
-                        <a href="image/character-design/monica/monica-poses-color-line.jpg" data-lightbox="monica" data-title="Monica Poses Color Line"></a>
-                        <a href="image/character-design/monica/monica-turnaround.jpg" data-lightbox="monica" data-title="Monica Turnaround"></a>
-                        <a href="image/character-design/monica/monica-color-scheme.jpg" data-lightbox="monica" data-title="Monica Color Scheme"></a>
-                        <figcaption class="character-figcaption">Monica (2019)</figcaption>
-                    </figure>
-
-                </div>
-            </section>
-
-            <section id="illustrations">
-                <h2 class="artwork-names ">Illustrations</h2>
-                <a href="image/illustration/witch/witch.jpg " data-lightbox="sandwitch" data-title="Cat and Sandwitch "><img class="thumbnail" src="image/illustration/witch/witch-thumb.jpg " alt="Cat and Sandwitch " title="Cat and Sandwitch " /></a>
-                <a href="image/illustration/messy/messy.jpg " data-lightbox="messy " data-title="Messy Princess "><img class="thumbnail" src="image/illustration/messy/messy-thumb.jpg " alt="Messy Princess " title="Messy Princess " /></a>
-                <a href="image/illustration/cookie/cookie.jpg " data-lightbox="cookie " data-title="Cookie Girl "> <img class="thumbnail" src="image/illustration/cookie/cookie-thumb.jpg " alt="Cookie Girl " title="Cookie Girl " /></a>
-                <a href="image/illustration/snow/snow.jpg " data-lightbox="snow " data-title="Snow Girl "><img class="thumbnail" src="image/illustration/snow/snow-thumb.jpg " alt="Snow Girl " title="Snow Girl " /></a>
-
-                <a href="image/illustration/red/red.jpg " data-lightbox="red " data-title="Little Red Riding Hood "><img class="thumbnail" src="image/illustration/red/red-thumb.jpg " alt="Little Red Riding Hood " title="Little Red Riding Hood " /></a>
-                <a href="image/illustration/red/red1.jpg " data-lightbox="red " data-title="Little Red Riding Hood Page 1 "></a>
-                <a href="image/illustration/red/red2.jpg " data-lightbox="red " data-title="Little Red Riding Hood Page 2 "></a>
-                <a href="image/illustration/red/red3.jpg " data-lightbox="red " data-title="Little Red Riding Hood Page 3 "></a>
-                <a href="image/illustration/red/red4.jpg " data-lightbox="red " data-title="Little Red Riding Hood Page 4 "></a>
-                <a href="image/illustration/red/red5.jpg " data-lightbox="red " data-title="Little Red Riding Hood Page 5 "></a>
-                <a href="image/illustration/red/red6.jpg " data-lightbox="red " data-title="Little Red Riding Hood Page 6 "></a>
-                <a href="image/illustration/red/red7.jpg " data-lightbox="red " data-title="Little Red Riding Hood Page 7 "></a>
-                <a href="image/illustration/pub/pub.jpg " data-lightbox="pub " data-title="The Hops Pub "><img class="thumbnail" src="image/illustration/pub/pub-thumb.jpg " alt="The Hops Pub " title="The Hops Pub " /></a>
-
-            </section>
-        </div>
-
-    </main>
-
-    <footer id="footer">
-
-        <div class="social-media-mobile">
-            <a href="https://www.linkedin.com/in/tiffany-liu-54798492/" target="_blank"><img class="linkedin" src="image/linkedin.png" alt="Linkedin" title="Linkedin" width="50" /></a>
-            <a href="https://tiffanyliu11.artstation.com/" target="_blank"><img class="artstation" src="image/artstation.png" alt="Artstation" title="Artstation" width="50" /></a>
-            <a href="https://www.fiverr.com/animate_dreamer?up_rollout=true" target="_blank"><img class="fiverr" src="image/fiverr.png" alt="Fiverr" title="Fiverr" width="50" /></a>
-            <a href="https://www.youtube.com/channel/UCfQ_kXtpGhRUOeGMSAev6MQ" target="_blank"><img class="youtube" src="image/youtube.png" alt="Youtube" title="Youtube" width="50" /></a>
-        </div>
-
-        <div>
-            <div class="email">
-                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=animatedreamer@gmail.com&tf=1" target="_blank"><img src="image/footer-email.png" alt="Email icon" title="Email icon" /></a>
-                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=animatedreamer@gmail.com&tf=1" target="_blank">Animatedreamer@gmail.com</a>
-            </div>
-            <p class="footer">©2020 Animate Dreamer</p>
-        </div>
-
-    </footer>
-
-    <!--Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script src="lightbox/src/js/lightbox.js "></script>
-    <script>
-        lightbox.option({
-            'maxWidth': 1000,
-            'maxHeight': 800
-        })
-    </script>
-
-    <script src="scripts/scripts.js"></script>
-
+        <script>
+            lightGallery(document.getElementById('lightgallery'));
+        </script>
+    </section>
 
 </body>
 
