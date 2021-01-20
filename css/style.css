@@ -278,104 +278,11 @@ header {
 
 =======================================*/
 
-#showButton {
-    font-weight: bold;
-    font-size: 16px;
-    display: block;
-    background: #606060;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    margin: auto;
-    position: relative;
-    top: 20px;
-    margin-bottom: 20px;
+#lightgallery>a>img {
+    width: 300px;
 }
 
-.artworks,
-#character-designs {
-    width: fit-content;
-}
-
-video {
-    display: inline-block;
-}
-
-.art {
-    margin-top: 200px;
-}
-
-.artworks {
-    padding: 0 280px;
-}
-
-#animations,
-#character-designs,
-#illustrations {
-    float: none;
-}
-
-.thumbnail {
-    padding: 10px;
-}
-
-span.lb-caption {
-    font-size: 20px !important;
-    color: white;
-}
-
-.thumbnail:hover {
-    filter: blur(1px);
-    opacity: 80%;
-}
-
-video {
-    border: 1px solid white;
-    margin: 10px;
-    box-shadow: 5px 10px 5px black;
-}
-
-figure {
-    float: left;
-    text-align: center;
-}
-
-.coffee-descript {
-    margin-left: 50px;
-}
-
-#showButton:hover {
-    color: #ff0082;
-    text-decoration: underline;
-}
-
-@media only screen and (max-width: 800px) {
-    .artworks {
-        padding-left: 3%;
-        padding-right: 8%;
-    }
-    video,
-    .thumbnail {
-        width: 100%;
-    }
-    .figcaption {
-        position: relative;
-        width: 100%;
-        left: 0%;
-    }
-    .character-figcaption {
-        position: relative;
-        bottom: 25px;
-    }
-    #showButton {
-        margin-top: 20%;
-        margin-left: 38%;
-    }
-    .artwork-names {
-        margin-left: 4%;
-    }
-}
+@media only screen and (max-width: 800px) {}
 
 
 /*=======================================
