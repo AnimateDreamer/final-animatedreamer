@@ -137,7 +137,7 @@ header {
     .profile {
         width: 200px;
         margin-right: 26%;
-        margin-top: 150px;
+        margin-top: 200px;
     }
     .shortcut {
         display: flex;
@@ -204,8 +204,6 @@ header {
     .logo {
         display: block;
         margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
         width: 180px;
     }
 }
@@ -229,7 +227,7 @@ header {
 
 @media only screen and (max-width: 800px) {
     .demo-reel>video {
-        width: 90%;
+        width: 300px;
         box-shadow: none;
     }
 }
@@ -302,7 +300,33 @@ header {
     margin: 20px 10px;
 }
 
-@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 800px) {
+    .art {
+        display: block;
+        text-align: center;
+    }
+    .artwork-names,
+    h5 {
+        position: relative;
+        right: 50px;
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+    #animations>video {
+        position: relative;
+        right: 60px;
+        display: block;
+        width: 100%;
+    }
+    #lightgallery>a>img,
+    #lightgallery2>a>img {
+        position: relative;
+        right: 50px;
+        display: block;
+        width: 100%;
+    }
+}
 
 
 /*=======================================
@@ -356,6 +380,10 @@ li {
 
 @media only screen and (max-width: 800px) {
     h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    h2 {
         font-size: 45px;
         text-align: center;
     }
@@ -475,6 +503,13 @@ textarea {
 }
 
 @media only screen and (max-width: 800px) {
+    .contact {
+        margin-top: 100px;
+    }
+    .contact-titles {
+        margin-right: 200px;
+        padding-right: 100px;
+    }
     .mail {
         display: none;
     }
