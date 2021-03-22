@@ -176,7 +176,7 @@ header {
 }
 
 .main-logo {
-    width: 300px;
+    width: 335px;
     margin-left: 30px;
     margin-top: 10px;
 }
@@ -199,7 +199,7 @@ header {
     .main-logo {
         position: relative;
         right: 15px;
-        width: 220px;
+        width: 184px;
     }
     .logo {
         display: block;
@@ -227,7 +227,7 @@ header {
 
 @media only screen and (max-width: 800px) {
     .demo-reel>video {
-        width: 300px;
+        width: 80%;
         box-shadow: none;
     }
 }
