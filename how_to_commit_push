@@ -1,0 +1,8 @@
+1. Add changes (specify which files you want to save, 'add .' means to save everything) 
+    git add .
+
+2. Commit your changes (summarize your changes)
+    git commit -m "This is what I did"
+
+3. Push your changes to the cloud
+    git push
